@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+#connect4 {
+    background-color: blue;
+    display: inline-block;
+}
+
+.col {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.col.empty {
+    cursor: pointer;
+  }
+/* this is for the assigned colors of the players(?) */
+
+.next-red {
+    background-color: rgba(255,0,0,0.2);
+}
+
+.next-black{
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* this is for the colours of the pieces to go in the grid */
+.col.red { 
+    background-color: red; 
+}
+
+.col.black {
+    background-color: black; 
+}
